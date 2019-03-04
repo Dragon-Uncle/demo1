@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 上传到git测试的项目
+ * 项目demo2.0
  */
 @SpringBootApplication
 @EnableEurekaClient
