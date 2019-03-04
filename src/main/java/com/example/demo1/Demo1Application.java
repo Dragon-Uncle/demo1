@@ -20,6 +20,7 @@ public class Demo1Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Demo1Application.class, args);
+        System.out.println("=========== 项目提交的第二次");
     }
 
     @Value("${server.port}")
@@ -28,5 +29,6 @@ public class Demo1Application {
     public String home(@RequestParam String name){
         return "hi "+name+",i am from port:" +port;
     }
+
 
 }
